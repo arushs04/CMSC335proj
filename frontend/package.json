@@ -3,7 +3,6 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "proxy": "https://www.arushsacheti335.com",
   "scripts": {
     "dev": "vite",
     "build": "vite build",

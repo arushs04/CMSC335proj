@@ -26,7 +26,7 @@ const NavigationBar = () => {
         {<h3 className="text-slate-700 text-xl hover:text-gray-500 cursor-pointer font-semibold"><Link to={"/health"}>Health</Link></h3>}
         {<h3 className="text-slate-700 text-xl hover:text-gray-500 cursor-pointer font-semibold"><Link to={"/technology"}>Technology</Link></h3>}
         {<h3 className="text-slate-700 text-xl hover:text-gray-500 cursor-pointer font-semibold"><Link to={"/news"}>News</Link></h3>}
-        {<h3 className="text-slate-700 text-xl hover:text-gray-500 cursor-pointer font-semibold"><Link to={"/APIpage"}>APIpage</Link></h3>}
+        {<h3 className="text-slate-700 text-xl hover:text-gray-500 cursor-pointer font-semibold"><Link to={"/APIpage"}>Our Offices</Link></h3>}
       </div>
         <div className="text-slate-700 absolute right-16 py-16 hidden text-xl md:flex font-semibold items-center justify-center space-x-7 md: space-x-10">
             {user? <h3> <Link to ="/write"> New Post </Link> </h3>: <h3><Link to="/login">Login</Link></h3> }
